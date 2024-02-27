@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Advanced Row</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+        .custom-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .custom-img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 50%;
+        }
+
+        .custom-text {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .custom-link {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row custom-row">
+        <!-- First Element: Image -->
+        <div class="col-md-2">
+            <img src="https://via.placeholder.com/150" alt="Image" class="img-fluid custom-img">
+        </div>
+
+        <!-- Second Element: Heading -->
+        <div class="col-md-3 custom-text">
+            <h3>Heading</h3>
+        </div>
+
+        <!-- Third Element: Description -->
+        <div class="col-md-5 custom-text">
+            <p>Description text goes here. You can provide additional details about the content in this section.</p>
+        </div>
+
+        <!-- Fourth Element: Link -->
+        <div class="col-md-2 custom-link">
+            <a href="https://example.com" class="btn btn-primary" target="_blank">Visit Site</a>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
